@@ -1,0 +1,15 @@
+.card-header a {
+  position: relative;
+  display: block; }
+
+.card-header a[aria-expanded=false] .fa-chevron-up {
+  display: none; }
+
+.card-header a[aria-expanded=true] .fa-chevron-down {
+  display: none; }
+
+.card-header i {
+  position: absolute;
+  right: 0;
+  line-height: 25px;
+  font-size: 20px; }

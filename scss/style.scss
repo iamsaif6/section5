@@ -1,0 +1,22 @@
+.card-header{
+     a{
+          position: relative;
+          display: block;
+     }
+
+     a[aria-expanded=false]{
+        .fa-chevron-up{
+             display: none;}
+        }  
+     a[aria-expanded=true]{
+        .fa-chevron-down{
+             display: none;}
+         
+     }
+     i{
+          position: absolute;
+          right: 0;
+          line-height: 25px;
+          font-size: 20px;
+     }
+     }
